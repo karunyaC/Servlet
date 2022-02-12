@@ -1,0 +1,15 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="beans.Hbm_Student" table="student003" schema="test">
+    <id name="id">
+    <generator class="sequence"/>
+    
+    </id>
+    <property name="name"/>
+    <property name="email"/>
+        <property name="address"/>
+        <property name="marks"/>
+    </class>    
+    </hibernate-mapping>
